@@ -1,0 +1,63 @@
+
+body{
+	display: flex;
+	justify-content: center; /*вирівнювання по центру тіло калькулятора*/
+}
+#calculator{
+	width: 250px;
+	border:2px solid grey;
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	background-color: red;
+}
+input[type="button"]{
+	width: 50px;
+	height: 50px;
+}
+
+input[type="button"].zero{
+	width: 100px;
+}
+input[type="button"].equal{
+	height: 100px;
+}
+input[type="text"]{
+	/*height: 50px;*/
+	padding: 5px;
+	box-sizing: border-box;
+	text-align: right;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Verdana;
+	border: 1px solid gray;
+}
+input[type="text"].res{
+	border-top: none;
+	margin-bottom: 10px;
+}
+input[type="text"].top{
+	border-bottom: none;
+}
+
+
+#calculator .btninp{
+	display: flex;
+}
+#calculator .btninp .bigbtn{
+	display: flex;
+	flex-direction: column;
+}
+#calculator .txtinp{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.orange{
+	background-color:#1a1aff;
+	color: white;
+}
+
+

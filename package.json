@@ -1,0 +1,21 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "calculator",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "calc"
+  ],
+  "author": "bilanchuk",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3"
+  }
+}
